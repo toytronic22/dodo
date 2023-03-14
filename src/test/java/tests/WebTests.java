@@ -28,7 +28,7 @@ public class WebTests extends TestBase {
 
 
     @Tag("ui")
-    @DisplayName("Проверяем, что работает переход на Работу в Додо")
+    @DisplayName("Проверяем, что ссылка Работа в Додо кликабельна")
     @Test
     public void positiveTest2() {
         step("Перейти на главную страницу", () -> {
